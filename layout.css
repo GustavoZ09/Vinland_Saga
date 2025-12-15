@@ -1,0 +1,88 @@
+.grid {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100dvh;
+}
+
+#logo {
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    filter: saturate(.1);
+}
+
+#head-structure,
+#structure {
+    min-height: 100dvh;
+    background: var(--white);
+}
+
+#head-structure {
+    display: grid;
+    grid-template-rows: 60% 40%;
+}
+
+#header,
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header {
+    background: var(--red-2);
+    height: 60dvh;
+}
+
+#header {
+    padding: .5rem 2rem;
+}
+
+#nav {
+    padding: 0rem 3.5rem;
+    background: linear-gradient(var(--red-2), var(--black));
+    color: var(--white);
+}
+
+#footer {
+    padding: 2rem;
+}
+
+#video-background-container {
+    overflow-x: hidden;
+    height: min-content;
+    position: relative;
+}
+
+.content-page {
+    display: grid;
+}
+
+.content-page.withTable {
+    grid-template-columns: 15% 1fr 25%;
+}
+
+.content-page.withoutTable {
+    grid-template-columns: 15% 1fr;
+}
+
+.content-page.withoutNav {
+    grid-template-columns: 1fr 40%;
+}
+
+article {
+    line-height: normal;
+    font-weight: 350;
+    font-size: 16px;
+}
+
+summary {
+    position: sticky;
+    top: 5px;
+    height: fit-content;
+}
+
+article ul {
+    padding-left: 2rem;
+}

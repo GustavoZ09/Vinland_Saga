@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Lexend:wght@100..900&display=swap');
+@import url(layout.css);
+@import url(others.css);
+@import url(keyframe.css);
+@import url(links.css);
+@import url(utility-class.css);
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html {
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    scrollbar-color: var(--red-2) var(--black);
+}
+
+body {
+    margin: 0;
+}
+
+:root {
+    /* COLOR */
+    --yellow: #FFC529;
+    --red-1: #FF4529;
+    --red-2: #BE0500;
+    --white: #F1F1F1;
+    --black: #171717;
+
+    font-family: 'Lexend', 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    color: var(--black);
+
+    --ease-in-out: cubic-bezier(.75, 0 , .25, 1);
+    --ease-in: cubic-bezier(0, .5, .5, 1);
+}

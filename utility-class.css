@@ -1,0 +1,84 @@
+.dark-bg {
+    background: var(--black);
+}
+
+.light-bg {
+    background: var(--white);
+}
+
+.light-font {
+    color: var(--white);
+}
+
+.dark-font {
+    color: var(--black);
+}
+
+.red-font {
+    color: var(--red-2);
+}
+
+.red-bg {
+    background: var(--red-2);
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.txt-indent {
+    text-indent: 2rem;
+}
+
+.p0 {
+    padding: 0;
+}
+
+.p1rem {
+    padding: 1rem;
+}
+
+.p2rem {
+    padding: 2rem;
+}
+
+.m0 {
+    margin: 0;
+}
+
+.m2rem {
+    margin: 2rem;
+}
+
+.m1rem {
+    margin: 1rem;
+}
+
+.m05rem {
+    margin: 0.5rem;
+}
+
+.blend-diff {
+    mix-blend-mode: difference;
+}
+
+.article-p {
+    padding: 3vh 4vw;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.citacao {
+    font-style: italic;
+    color: rgb(78, 78, 78);
+    font-size: 0.9em;
+    width: 80%;
+    text-align: center;
+    margin: 1rem auto;
+    display: block;
+    background: hsl(from var(--white) h s 90);
+    border-radius: 12px;
+    padding: 0.5rem;
+}
